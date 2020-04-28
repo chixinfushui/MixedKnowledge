@@ -17,3 +17,13 @@ redhet 在/var/cache/yum/base/packages/下
 5、yum -C install you-need-packagename
 
 注意：两台电脑的系统要相同
+
+
+
+或者 yum -y install xxx --downloadonly --downloaddir /home/pkg
+
+下载
+
+离线安装rpm 
+
+rpm -ivh *.rpm --force --nodeps

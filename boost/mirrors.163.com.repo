@@ -1,0 +1,6 @@
+[mirrors.163.com]
+name=mirrors.163.com
+baseurl=http://mirrors.163.com/centos/7/os/x86_64/
+enabled=1
+gpgcheck=0
+

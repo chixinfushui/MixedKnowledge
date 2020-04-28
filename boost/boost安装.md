@@ -59,16 +59,3 @@ int main()
 
 
 
-
-
-
-
-
-
-windows 安装
-
-<https://www.cnblogs.com/lchb/p/3449408.html>
-
-#### bootstrap.bat
-
-bjam stage --toolset=msvc-11.0 --without-graph --without-graph_parallel --without-math --without-mpi --without-python --without-serialization --without-wave --stagedir="F:\boost\boost_1_53_0\bin\vc11" link=static runtime-link=shared runtime-link=static threading=multi debug release
