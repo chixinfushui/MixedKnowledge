@@ -5,7 +5,7 @@
 #include <vector>
 using namespace std;
 
-int main()
+int main2()
 {
 	//deque   double ended queue	к╚╤к╤сап
 	{
